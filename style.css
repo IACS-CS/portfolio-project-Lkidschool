@@ -24,7 +24,7 @@ body {
   display: grid;
   place-content: center;
   /* Custom text and stuff */
-  background: #0033a0;
+  background: #000000;
   color: white;
   font-family: Futura;
   font-weight: bold;
@@ -34,7 +34,7 @@ body {
 .hero a {
   color: white;
   text-decoration: underline;
-  text-decoration-color: #c6093b;
+  text-decoration-color: #085d1a;
 }
 
 /* A little "activation" to demonstrate JS is working in the template */
@@ -42,7 +42,7 @@ body {
   transition: background 0.5s;
 }
 .hero.active {
-  background: #c6093b;
+  background: #260e6b;
 }
 
 main {
